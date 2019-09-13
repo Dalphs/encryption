@@ -7,8 +7,10 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <TextArea fx:id="log" layoutX="22.0" layoutY="100.0" prefHeight="278.0" prefWidth="322.0" />
-      <Button layoutX="32.0" layoutY="39.0" mnemonicParsing="false" onAction="#encryptPressed" text="Encrypt" />
-      <Button layoutX="107.0" layoutY="39.0" mnemonicParsing="false" onAction="#decryptPressed" text="Decrypt" />
-      <Button layoutX="292.0" layoutY="39.0" mnemonicParsing="false" onAction="#updatePressed" text="Update" />
+      <Button layoutX="22.0" layoutY="27.0" mnemonicParsing="false" onAction="#encryptPressed" text="Custom Encrypt" />
+      <Button layoutX="137.0" layoutY="27.0" mnemonicParsing="false" onAction="#decryptPressed" text="Custom Decrypt" />
+      <Button layoutX="298.0" layoutY="40.0" mnemonicParsing="false" onAction="#updatePressed" text="Update" />
+      <Button layoutX="22.0" layoutY="64.0" mnemonicParsing="false" onAction="#aesEncryptPressed" text="AES128 Encrypt" />
+      <Button layoutX="138.0" layoutY="64.0" mnemonicParsing="false" onAction="#aesDecryptPressed" text="AES128 Decrypt" />
    </children>
 </Pane>
